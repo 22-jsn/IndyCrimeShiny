@@ -19,8 +19,22 @@ Integrated two related datasets: 2023 Indiana crime records from Kaggle and 2023
 crime_data <- read.csv("final_grouped_clean_indiana_crime_unemployment_2023.csv")
 
 Detailed documentation of project scope and steps taken
+tabPanel("Overview",
+                 h3("Project Overview"),
+                 p("This Shiny application analyzes the relationship between unemployment rates and different types of crimes in Indiana for the year 2023. The purpose of this research is to uncover patterns or correlations that might exist between economic conditions and criminal behavior."),
+                 h4("Why This Topic?"),
+                 p("Crime and unemployment are often interconnected. By exploring real data from Indiana, we wanted to investigate whether rising unemployment aligns with increased incidents of certain crimes or crimes in general."),
+                 h4("Project Requirements"),
+                 tags$ul(
+                   tags$li("Used Shiny app with multiple visualization tabs"),
+                   tags$li("Integrated two related datasets: 2023 Indiana crime records from Kaggle and 2023 Indiana unemployment data from fred.stlouisfed.org"),
+                   tags$li("Detailed documentation of project scope and steps taken"),
+                   tags$li("Included dropdown filters for month and offense type"),
+                   tags$li("Displayed backlog of visualizations and analysis ideas")
 
 Included dropdown filters for month and offense type
+selectInput("selected_offense", "Select Offense:", choices = c("All", sort(unique(crime_data$OFFENSE_CLEAN))), selected = "All"),
+      selectInput("selected_month", "Select Month:", choices = c("All", sort(unique(crime_data$MONTH))), selected = "All")
 
 Displayed backlog of visualizations and analysis ideas
 h4("Backlog & Future Concepts"),
