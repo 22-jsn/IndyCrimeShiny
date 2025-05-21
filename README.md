@@ -52,4 +52,14 @@ Time-Lagged Unemployment Effects: A more advanced approach could analyze the lag
 - **tidyr** – Data reshaping and tidying
 - **DT** – Rendering interactive data tables within Shiny
 
-All development and visualization were done using **RStudio**.
+## GitHub Project Management
+
+This project was managed using a Kanban board on GitHub Projects. As the sole team member, I created and tracked all key stages of work — from planning and dataset cleaning to visualization building and final documentation. The board is organized into five columns:
+
+- **Backlog**: Idea generation, early planning and future improvements
+- **Ready**: Data merging, cleaning, and UI planning
+- **In Progress**: Chart creation, filtering logic, and design
+- **In Review**: Debugging and final labeling improvements
+- **Done**: Completed milestones including dataset uploads and documentation
+
+
