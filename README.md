@@ -2,12 +2,15 @@
 ##  IndyCrimeShiny
 
 Project Overview
+
 This Shiny application analyzes the relationship between unemployment rates and different types of crimes in Indiana for the year 2023. The purpose of this research is to uncover patterns or correlations that might exist between economic conditions and criminal behavior.
 
 Why This Topic?
+
 Crime and unemployment are often interconnected. By exploring real data from Indiana, we wanted to investigate whether rising unemployment aligns with increased incidents of certain crimes or crimes in general.
 
 Project Requirements
+
 Used Shiny app with multiple visualization tabs
 Integrated two related datasets: 2023 Indiana crime records from Kaggle and 2023 Indiana unemployment data from fred.stlouis.org
 Detailed documentation of project scope and steps taken
