@@ -12,14 +12,20 @@ Crime and unemployment are often interconnected. By exploring real data from Ind
 **Project Requirements**
 
 Used Shiny app with multiple visualization tabs
+ tabPanel("Top Crimes by Month", plotlyOutput("topCrimeMonth")),
+    tabPanel("Crime by Gender", plotlyOutput("genderCrimePlot")),
 
 Integrated two related datasets: 2023 Indiana crime records from Kaggle and 2023 Indiana unemployment data from fred.stlouis.org
+crime_data <- read.csv("final_grouped_clean_indiana_crime_unemployment_2023.csv")
 
 Detailed documentation of project scope and steps taken
 
 Included dropdown filters for month and offense type
 
 Displayed backlog of visualizations and analysis ideas
+h4("Backlog & Future Concepts"),
+      tags$ul(
+        tags$li("Predictive Modeling: Future versions of this project could incorporate statistical or machine learning models (e.g., linear regression, random forest) to predict crime rates based on unemployment trends, demographic shifts, or regional differences. This would allow the dashboard to move beyond observation and into forecasting."),
 
 
 **Scope of Project**
@@ -42,6 +48,12 @@ Geospatial Mapping: Adding geospatial visualizations using tools like leaflet or
 Time-Lagged Unemployment Effects: A more advanced approach could analyze the lag between rising unemployment and subsequent crime increases. This time-series strategy would allow exploration of delayed effects and could support stronger causal inferences.
 
 **Libraries & Technologies Used**
+
+library(shiny)
+library(ggplot2)
+library(dplyr)
+library(plotly)
+library(DT)
 
 - **R** – Statistical computing and visualization
 - **Shiny** – Building interactive web applications
