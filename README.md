@@ -41,7 +41,7 @@ Geospatial Mapping: Adding geospatial visualizations using tools like leaflet or
 
 Time-Lagged Unemployment Effects: A more advanced approach could analyze the lag between rising unemployment and subsequent crime increases. This time-series strategy would allow exploration of delayed effects and could support stronger causal inferences.
 
-ibraries & Technologies Used
+**Libraries & Technologies Used**
 
 - **R** – Statistical computing and visualization
 - **Shiny** – Building interactive web applications
