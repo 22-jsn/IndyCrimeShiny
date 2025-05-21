@@ -92,7 +92,8 @@ Title: A Random Forest Approach to Forecasting Urban Crime Rates
 Authors: Zhang, X., & Zhao, J. (2020)
 Journal: Crime Science, Vol. 9, Article 5
 Summary: The authors used Random Forest models to forecast crime across multiple U.S. cities using socioeconomic indicators such as unemployment, poverty rate, and educational attainment. Their results showed that RF models outperformed linear models in terms of accuracy and flexibility, especially when predicting violent crimes and property thefts.
-Zhang, X., & Zhao, J. (2020). A random forest approach to forecasting urban crime rates. Crime Science, 9(5). https://doi.org/10.1186/s40163-020-00124-3
+Zhang, X., & Zhao, J. (2020). A random forest approach to forecasting urban crime rates. Crime Science, 9(5). 
+ https://doi.org/10.1186/s40163-020-00124-3
 
 This study applied a Random Forest model to predict crime in urban areas using socioeconomic predictors such as unemployment, education, and income levels. The model outperformed traditional linear models in both accuracy and generalizability, especially when predicting violent and property crimes. The non-parametric nature of Random Forest allowed it to capture complex, non-linear dynamics present in urban crime data.
 
