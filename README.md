@@ -75,3 +75,28 @@ This project was managed using a Kanban board on GitHub Projects. As the sole te
 - **Done**: Completed milestones including dataset uploads and documentation
 
 
+**Prediction Model Rationale**
+
+Model I Chose: Linear Regression
+
+I selected linear regression because it is widely used for analyzing relationships between continuous variables. My primary research question involves whether changes in unemployment rates correlate with changes in crime counts, which is well suited for a regression framework. Linear regression provides interpretability, ease of implementation, and is commonly used in economic and social science research.
+
+LLM-Suggested Model: Random Forest
+
+I asked ChatGPT to recommend a predictive model suitable for my dataset. It suggested using a Random Forest Regressor, citing its robustness to overfitting, ability to handle nonlinear relationships, and effectiveness on mixed-type datasets. The model was recommended based on its frequent use in criminology and social science forecasting tasks.
+Supporting Research Article
+
+ChatGPT identified the following peer-reviewed paper:
+
+Title: A Random Forest Approach to Forecasting Urban Crime Rates
+Authors: Zhang, X., & Zhao, J. (2020)
+Journal: Crime Science, Vol. 9, Article 5
+Summary: The authors used Random Forest models to forecast crime across multiple U.S. cities using socioeconomic indicators such as unemployment, poverty rate, and educational attainment. Their results showed that RF models outperformed linear models in terms of accuracy and flexibility, especially when predicting violent crimes and property thefts.
+Zhang, X., & Zhao, J. (2020). A random forest approach to forecasting urban crime rates. Crime Science, 9(5). https://doi.org/10.1186/s40163-020-00124-3
+
+This study applied a Random Forest model to predict crime in urban areas using socioeconomic predictors such as unemployment, education, and income levels. The model outperformed traditional linear models in both accuracy and generalizability, especially when predicting violent and property crimes. The non-parametric nature of Random Forest allowed it to capture complex, non-linear dynamics present in urban crime data.
+
+Relevance to My Project
+
+My dataset shares structural similarities with the research cited, incorporating monthly unemployment rates and detailed crime breakdowns by type, gender, age, and race. Given the strong predictive performance observed in the Zhang and Zhao (2020) study, Random Forest would be a fitting model for future expansion of this project beyond visualization. It would allow for robust forecasting and potentially inform local policy decisions through scenario modeling.
+
